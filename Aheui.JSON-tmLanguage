@@ -1,0 +1,29 @@
+// [PackageDev] target_format: plist, ext: tmLanguage
+    { "name": "Aheui",
+  "scopeName": "source.aheui",
+  "fileTypes": ["ah", "aheui"],
+  "uuid": "46224da8-21b8-42f2-a224-1f27dc92c59a",
+/* name 속성은 에디터에서 색상을 다르게 하기 위해서만 사용될 뿐
+ * 딱히 시맨틱을 갖지는 않습니다.
+ */
+  "patterns": [
+    {  "name": "comment.aheui", // 주석
+       "match": "[^가-힣]"
+    },
+    {  "name": "constant.language.aheui", // 받침과 관련
+       "match": "[사-싷]|[싸-앃]|[바-빟]"
+    },
+    {  "name": "string.aheui", // 출력
+       "match": "[마-밓]"
+    },
+    {  "name": "keyword.operator.aheui", // 산술 연산
+       "match": "[다-딯]|[따-띻]|[타-팋]|[나-닣]|[라-맇]"
+    },
+    {  "name": "keyword.other.aheui", // 저장공간 연산
+       "match": "[빠-삫]|[파-핗]|[자-짛]|[차-칳]"
+    },
+    {  "name": "keyword.control.aheui", // 종료
+       "match": "[하-힣]"
+    }
+  ]
+}

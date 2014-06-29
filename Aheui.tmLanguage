@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ah</string>
+		<string>aheui</string>
+	</array>
+	<key>name</key>
+	<string>Aheui</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>[^가-힣]</string>
+			<key>name</key>
+			<string>comment.aheui</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[사-싷]|[싸-앃]|[바-빟]</string>
+			<key>name</key>
+			<string>constant.language.aheui</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[마-밓]</string>
+			<key>name</key>
+			<string>string.aheui</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[다-딯]|[따-띻]|[타-팋]|[나-닣]|[라-맇]</string>
+			<key>name</key>
+			<string>keyword.operator.aheui</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[빠-삫]|[파-핗]|[자-짛]|[차-칳]</string>
+			<key>name</key>
+			<string>keyword.other.aheui</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[하-힣]</string>
+			<key>name</key>
+			<string>keyword.control.aheui</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.aheui</string>
+	<key>uuid</key>
+	<string>46224da8-21b8-42f2-a224-1f27dc92c59a</string>
+</dict>
+</plist>
